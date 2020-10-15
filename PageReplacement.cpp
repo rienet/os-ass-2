@@ -40,6 +40,7 @@ see assignment sheet
 
 //user stuff idk
 #include "frame.h"
+#include "FIFO.hpp"
 using namespace std;
 
 void initial(string input_txt);
@@ -70,6 +71,7 @@ int main(int argc,char *argv[]) {
     pp.name = "pee pee";
     cout << pp.name << endl;
 
+    FIFO();
     // stuff below
 
 
