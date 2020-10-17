@@ -4,7 +4,7 @@
 
 class Frame {
 public:
-	std::string name;
+	int page_number;
 	int dirty_bit;
 };
 
